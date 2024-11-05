@@ -1,0 +1,37 @@
+/* Login.css */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Altura completa de la ventana */
+    background-color: #f0f4f8; /* Fondo de color si es necesario */
+}
+
+.login-container {
+    width: 400px; /* Ancho del formulario */
+    background-color: white; /* Fondo blanco para el formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra del formulario */
+    padding: 20px; /* Espaciado interno */
+}
+
+h2 {
+    text-align: center; /* Centrar el título */
+}
+
+input {
+    width: 100%; /* Ancho completo para los campos de entrada */
+    padding: 10px; /* Espaciado interno de los campos de entrada */
+    margin: 10px 0; /* Margen vertical entre los campos */
+    border: 1px solid #ccc; /* Borde suave */
+    border-radius: 5px; /* Bordes redondeados para campos de entrada */
+}
+
+button {
+    width: 100%; /* Ancho completo para los botones */
+    padding: 10px; /* Espaciado interno del botón */
+    margin: 10px 0; /* Margen vertical entre los botones */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados para botones */
+}

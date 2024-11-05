@@ -1,0 +1,60 @@
+/* CrudComponent.css */
+
+.container {
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f8f9fa; /* Fondo claro */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+h2 {
+    text-align: center; /* Centrar el título */
+    font-family: 'Arial', sans-serif; /* Cambiar la fuente del título */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+.list-group {
+    margin-top: 20px; /* Espacio superior */
+}
+
+.list-group-item {
+    display: flex; /* Flexbox para alinear elementos */
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center; /* Alinear verticalmente */
+}
+
+.btn {
+    margin-left: 5px; /* Espacio entre botones */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Color del botón Agregar */
+    border: none; /* Sin borde */
+}
+
+.btn-warning {
+    background-color: #ffc107; /* Color del botón Editar */
+    border: none; /* Sin borde */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Color del botón Eliminar */
+    border: none; /* Sin borde */
+}
+
+.btn:hover {
+    opacity: 0.8; /* Efecto hover */
+}
+
+.logout-button {
+    position: absolute; /* Posición absoluta para colocar el botón en la esquina */
+    top: 20px; /* Espacio desde la parte superior */
+    right: 20px; /* Espacio desde la derecha */
+    background-color: #dc3545; /* Color de fondo del botón de cerrar sesión */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
